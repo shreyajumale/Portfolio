@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shreya Jumale | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<nav class="navbar">
+    <div class="logo">Shreya Jumale</div>
+
+    <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <div class="hamburger">
+        <i class="fas fa-bars"></i>
+    </div>
+</nav>
+
+<!-- ================= HERO ================= -->
+<section id="home" class="hero">
+    <h1>Hello, I'm <span>Shreya Jumale</span></h1>
+    <p class="typing"></p>
+    <a href="#projects" class="btn">View My Work</a>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section id="about" class="section">
+    <h2>About Me</h2>
+    <p>
+        I am a passionate Web Developer focused on building responsive 
+        and interactive web applications. I enjoy solving real-world 
+        problems and creating modern UI designs.
+    </p>
+</section>
+
+<!-- ================= SKILLS ================= -->
+<section id="skills" class="section">
+    <h2>Skills</h2>
+
+    <div class="skills-container">
+
+        <div class="skill">
+            <span>HTML</span>
+            <div class="progress">
+                <div class="progress-bar" style="width:90%"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <span>CSS</span>
+            <div class="progress">
+                <div class="progress-bar" style="width:85%"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <span>JavaScript</span>
+            <div class="progress">
+                <div class="progress-bar" style="width:80%"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <span>Socket.IO</span>
+            <div class="progress">
+                <div class="progress-bar" style="width:75%"></div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- ================= PROJECTS ================= -->
+<section id="projects" class="section">
+    <h2>Projects</h2>
+
+    <div class="projects-container">
+
+        <div class="project-card">
+            <h3>Duo Connectify</h3>
+            <p>
+                A real-time chat application built using HTML, CSS,
+                JavaScript and Socket.IO with login authentication 
+                and session storage.
+            </p>
+        </div>
+
+        <div class="project-card">
+            <h3>Portfolio Website</h3>
+            <p>
+                A fully responsive personal portfolio with animations,
+                smooth scrolling and interactive UI design.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section id="contact" class="section">
+    <h2>Contact Me</h2>
+
+    <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <textarea id="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+        <p id="formMessage"></p>
+    </form>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+    <p>© 2026 Shreya Jumale | All Rights Reserved</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
