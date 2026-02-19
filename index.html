@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shreya Jumale | Portfolio</title>
+    <meta name="description" content="Shreya Jumale — aspiring software developer. Portfolio showcasing projects, skills, and contact information.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <nav class="navbar container">
+        
+        <a class="logo" href="#home">Shreya.</a>
+
+        <button class="nav-toggle" 
+                aria-label="Toggle navigation" 
+                aria-expanded="false">
+            ☰
+        </button>
+
+        <ul id="primary-navigation" class="nav-links">
+            <li><a href="#home">🏠 Home</a></li>
+            <li><a href="#about">👤 About Me</a></li>
+            <li><a href="#skills">💻 My Skills</a></li>
+            <li><a href="#projects">🚀 Projects</a></li>
+            <li><a href="#contact">📬 Contact Me</a></li>
+        </ul>
+
+    </nav>
+</header>
+
+<main>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <h1>Hello, I'm <span>Shreya Jumale</span></h1>
+            <h3>Aspiring Software Developer</h3>
+            <p>I build clean, scalable and user-friendly applications.</p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View Projects</a>
+                <a href="#contact" class="btn btn-outline">Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>
+Hi, I’m Shreya Jumale, a passionate computer applications student with a strong interest in software development and real-time applications. I enjoy building practical projects and continuously improving my technical skills. I have hands-on experience in Java, C++, HTML, CSS, JavaScript, SQL, and backend technologies. I am particularly interested in full-stack and backend development. I am a quick learner, adaptable, and always eager to explore new technologies. My goal is to start my career as a software developer and contribute meaningfully to innovative projects.
+            </p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2>My Skills</h2>
+
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Programming</h3>
+                    <ul>
+                        <li>Java</li>
+                        <li>C++</li>
+                        <li>Python</li>
+                    </ul>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Frontend</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Backend & DB</h3>
+                    <ul>
+                        <li>SQL</li>
+                        <li>Node.js</li>
+                    </ul>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Tools</h3>
+                    <ul>
+                        <li>Git & GitHub</li>
+                        <li>VS Code</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Projects</h2>
+
+            <div class="projects-grid">
+
+                <div class="project-card">
+                    <h3>Duo-Connectify</h3>
+                    <p>
+Duo-Connectify is a real-time chat application developed using HTML, CSS, JavaScript, Node.js, and Socket.IO. It enables users to log in and communicate instantly through a dynamic and responsive chat interface. The application uses session handling and real-time event-driven communication to ensure smooth message exchange. This project strengthened my understanding of frontend-backend integration and real-time application architecture.
+                    </p>
+                </div>
+
+                <div class="project-card">
+                    <h3>WhatsApp Clone</h3>
+                    <p>
+WhatsApp Clone is a real-time messaging web application designed to replicate the core features of WhatsApp. It allows users to send and receive instant messages, maintain chat sessions, and interact in real-time using Socket.IO. The interface is responsive and user-friendly, focusing on seamless communication and dynamic message updates without page reloads.
+                    </p>
+                </div>
+
+                <div class="project-card">
+                    <h3>Employee Management System</h3>
+                    <p>
+Employee Management System is a web-based application developed to manage employee records efficiently. It supports full CRUD operations including adding, updating, deleting, and viewing employee details. The project integrates backend logic with database connectivity to ensure secure and structured data management, enhancing administrative efficiency and real-world application development skills.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Me</h2>
+
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" placeholder="Enter your name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" placeholder="Enter your email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" rows="5" placeholder="Write your message..." required></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+
+            <div class="contact-info">
+                <p>Email: shreya@email.com</p>
+                <p>LinkedIn: linkedin.com/in/shreya</p>
+                <p>GitHub: github.com/shreya</p>
+            </div>
+
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    <div class="container">
+        <p>© <span id="year">2026</span> Shreya Jumale. All Rights Reserved.</p>
+    </div>
+</footer>
+
+</body>
+</html>
+
+
+
+
